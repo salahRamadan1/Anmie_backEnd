@@ -1,0 +1,52 @@
+{
+    "validation": {
+        "user": {
+            "name": {
+                "required": "الاسم مطلوب",
+                "minlength": "الاسم لازم يكون على الأقل حرفين"
+            },
+            "email": {
+                "required": "البريد الإلكتروني مطلوب",
+                "invalid": "صيغة البريد الإلكتروني غير صحيحة"
+            },
+            "password": {
+                "minlength": "كلمة المرور لازم تكون على الأقل 6 حروف"
+            }
+        },
+        "address": {
+            "city": {
+                "required": "المدينة مطلوبة"
+            },
+            "street": {
+                "required": "الشارع مطلوب"
+            }
+        }
+    },
+    "auth": {
+        "google": {
+            "missingIdToken": "Missing Google ID token",
+            "invalidToken": "Invalid Google token",
+            "invalidAccount": "Invalid Google account",
+            "accountDisabled": "Account is disabled",
+            "accountMismatch": "Google account mismatch for this email",
+            "registered": "Registered with Google",
+            "loggedIn": "Logged in with Google"
+        },
+        "register": {
+            "emailInUse": "Email already in use",
+            "success": "Registered successfully"
+        },
+        "login": {
+            "invalidCredentials": "Incorrect email or password",
+            "useGoogle": "Use Google login for this account",
+            "success": "Logged in successfully"
+        },
+        "validation": {
+            "required": "This field is required",
+            "string": "Invalid value",
+            "email": "Invalid email address",
+            "min": "Minimum length is {{limit}}",
+            "max": "Maximum length is {{limit}}"
+        }
+    }
+}

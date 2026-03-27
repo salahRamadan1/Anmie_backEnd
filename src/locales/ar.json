@@ -1,0 +1,52 @@
+{
+    "validation": {
+        "user": {
+            "name": {
+                "required": "Name is required",
+                "minlength": "Name must be at least 2 characters"
+            },
+            "email": {
+                "required": "Email is required",
+                "invalid": "Invalid email format"
+            },
+            "password": {
+                "minlength": "Password must be at least 6 characters"
+            }
+        },
+        "address": {
+            "city": {
+                "required": "City is required"
+            },
+            "street": {
+                "required": "Street is required"
+            }
+        }
+    },
+    "auth": {
+        "google": {
+            "missingIdToken": "معرّف تسجيل جوجل غير موجود",
+            "invalidToken": "رمز جوجل غير صالح",
+            "invalidAccount": "حساب جوجل غير صالح",
+            "accountDisabled": "هذا الحساب معطّل",
+            "accountMismatch": "حساب جوجل لا يطابق هذا البريد الإلكتروني",
+            "registered": "تم إنشاء الحساب عبر جوجل",
+            "loggedIn": "تم تسجيل الدخول عبر جوجل"
+        },
+        "register": {
+            "emailInUse": "البريد الإلكتروني مستخدم بالفعل",
+            "success": "تم إنشاء الحساب بنجاح"
+        },
+        "login": {
+            "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+            "useGoogle": "استخدم تسجيل الدخول عبر جوجل لهذا الحساب",
+            "success": "تم تسجيل الدخول بنجاح"
+        },
+        "validation": {
+            "required": "هذا الحقل مطلوب",
+            "string": "قيمة غير صحيحة",
+            "email": "البريد الإلكتروني غير صحيح",
+            "min": "الحد الأدنى {{limit}} حروف",
+            "max": "الحد الأقصى {{limit}} حروف"
+        }
+    }
+}
